@@ -34,7 +34,7 @@ const Layout = ({children ,home ,abount ,education ,portfolio ,contact}) => {
                             <nav>
                                 <ul className={clsx(styles.list)}>
                                     <li>
-                                        <p className={clsx(styles.item, {[styles.active]: home})} ><Link className={styles.link} to={"/"}>Home</Link></p></li>
+                                        <p className={clsx(styles.item, {[styles.active]: home})} ><Link className={styles.link} to={"/myCvApp"}>Home</Link></p></li>
                                     <li>
                                         <p className={clsx(styles.item, {[styles.active]: abount})}><Link className={styles.link} to={"/AboutPage"}>About</Link></p></li>
                                     <li>
