@@ -13,7 +13,7 @@ const HomePage = () => {
                     <h3>HI THERE !!!</h3>
                     <h1>I'M <span>Hieu Nguyen</span></h1>
                     <p>lorem ipsum dolor sit amet consectetur adipiscing elit. Distinctio deserunt aspernatur fugiat minus enim ullam repudiandae sint sed mafnam tenetur!!</p> 
-                    <Link className={styleRoot.btn} to={"/AboutPage"}>about me</Link>
+                    <Link className={styleRoot.btn} to={"/myCvApp/AboutPage"}>about me</Link>
                 </Col>
             </Row>
         </Layout>

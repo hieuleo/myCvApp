@@ -11,11 +11,11 @@ const RootRouter = () => {
     return (
         <BrowserRouter>
           <Routes>
-            <Route path="/myCvApp" element={<HomePage />} />
-            <Route path="/AboutPage" element={<AbountPage />} />
-            <Route path="/ContactPage" element={<ContactPage />} />
-            <Route path="/EducationPage" element={<EducationPage />} />
-            <Route path="/ProtfolioPage" element={<ProtfolioPage />} />
+            <Route path="/myCvApp/home" element={<HomePage />} />
+            <Route path="/myCvApp/AboutPage" element={<AbountPage />} />
+            <Route path="/myCvApp/ContactPage" element={<ContactPage />} />
+            <Route path="/myCvApp/EducationPage" element={<EducationPage />} />
+            <Route path="/myCvApp/ProtfolioPage" element={<ProtfolioPage />} />
             {/* <Route path="/*" element={<ErrorPage />} /> */}
           </Routes>
       </BrowserRouter>
