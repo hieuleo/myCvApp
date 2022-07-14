@@ -36,13 +36,13 @@ const Layout = ({children ,home ,abount ,education ,portfolio ,contact}) => {
                                     <li>
                                         <p className={clsx(styles.item, {[styles.active]: home})} ><Link className={styles.link} to={"/myCvApp"}>Home</Link></p></li>
                                     <li>
-                                        <p className={clsx(styles.item, {[styles.active]: abount})}><Link className={styles.link} to={"/AboutPage"}>About</Link></p></li>
+                                        <p className={clsx(styles.item, {[styles.active]: abount})}><Link className={styles.link} to={"/myCvApp/AboutPage"}>About</Link></p></li>
                                     <li>
-                                        <p className={clsx(styles.item, {[styles.active]: education})}><Link className={styles.link} to={"/EducationPage"}>Education</Link></p></li>
+                                        <p className={clsx(styles.item, {[styles.active]: education})}><Link className={styles.link} to={"/myCvApp/EducationPage"}>Education</Link></p></li>
                                     <li>
-                                        <p className={clsx(styles.item, {[styles.active]: portfolio})}><Link className={styles.link} to={"/ProtfolioPage"}>Portfolio</Link></p></li>
+                                        <p className={clsx(styles.item, {[styles.active]: portfolio})}><Link className={styles.link} to={"/myCvApp/ProtfolioPage"}>Portfolio</Link></p></li>
                                     <li>
-                                        <p className={clsx(styles.item, {[styles.active]: contact})}><Link className={styles.link} to={"/ContactPage"}>Contact</Link></p></li>
+                                        <p className={clsx(styles.item, {[styles.active]: contact})}><Link className={styles.link} to={"/myCvApp/ContactPage"}>Contact</Link></p></li>
                                 </ul>
                             </nav>
                         </Col>

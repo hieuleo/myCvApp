@@ -11,7 +11,7 @@ const RootRouter = () => {
     return (
         <BrowserRouter>
           <Routes>
-            <Route path="/myCvApp/home" element={<HomePage />} />
+            <Route path="/myCvApp" element={<HomePage />} />
             <Route path="/myCvApp/AboutPage" element={<AbountPage />} />
             <Route path="/myCvApp/ContactPage" element={<ContactPage />} />
             <Route path="/myCvApp/EducationPage" element={<EducationPage />} />
