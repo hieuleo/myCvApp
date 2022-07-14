@@ -1,0 +1,91 @@
+$yellows: linear-gradient(210.41deg,#fa5042 1.14%,#ffa739 100.75%);
+
+.portfolio{
+    .list{
+        padding: 2rem 0 4rem 0;
+        .box{
+            position: relative;
+            .boxShadow{
+                background-color: rgba(0, 0, 0, 0.404);
+                position: absolute;
+                left: 26px;
+                right: 26px;
+                top: 50px;
+                bottom: 0;
+                z-index: 10;
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                text-align: center;
+                opacity: 0;
+                .link{
+                    color: #ffff;
+                    font-size: 1.7rem;
+                    display: block;
+                    font-weight: 600;
+                    padding: 0.3rem 0;
+                    margin: 0.2rem 0;
+                    user-select: none;
+                    .icons{
+                        color: #ccc;
+                        font-size: 1.8rem;
+                        margin-left: 0.8rem;
+                    }
+                }
+                .link:hover{
+                    color: #ddd;
+                }
+                .dec{
+                    color: #ffff;
+                    position: absolute;
+                    bottom: 0.5rem;
+                    left: 0;
+                    right: 0;
+                    text-align: center;
+                    font-size: 1.4rem;
+                    font-weight: 900;
+                }
+            };
+
+            .headingBox{
+                color: #eee;
+                text-align: center;
+                padding: 1rem 1rem;
+                font-size: 2rem;
+                font-weight: 600;
+                text-transform:capitalize;
+            }
+        }
+        .boxShadow:hover{
+            opacity: 1;
+            animation: show linear 0.2s;
+        }
+        .box1{
+            animation: show linear 0.4s;
+        };
+        .box2{
+            animation: show linear 0.5s;
+        };
+        .box3{
+            animation: show linear 0.6s;
+        };
+        .box4{
+            animation: show linear 0.7s;
+        };
+        .box5{
+            animation: show linear 0.8s;
+        };
+        .box6{
+            animation: show linear 0.9s;
+        }
+    }
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,115 @@
+.layout {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.3s linear;
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+.header {
+  background: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  padding-top: 2.2rem;
+  position: fixed;
+  transition: all 0.3s linear;
+  left: 0%;
+  z-index: 10;
+}
+
+.user .avatar {
+  height: 17rem;
+  width: 17rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  margin-bottom: 1rem;
+  border: 0.7rem solid #fa5042;
+  background-clip: padding-box;
+}
+.user .name {
+  font-size: 3.5rem;
+  color: #fff;
+}
+.user .post {
+  font-size: 2rem;
+  color: #eee;
+}
+
+.navbar {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: 100%;
+  padding: 0;
+}
+.navbar .list {
+  list-style: none;
+  padding: 1rem 3rem;
+  width: 100%;
+}
+.navbar .item {
+  display: block;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  background: #333;
+  font-size: 2rem;
+  transition: all 1s linear;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+.navbar .item .link {
+  color: #fff;
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+.navbar .item:hover {
+  background: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+  transition: all 1s linear;
+}
+.navbar .active {
+  background: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%) !important;
+}
+
+.menu {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 2.5rem;
+  padding: 1rem 1.5rem;
+  z-index: 1000;
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    z-index: 10;
+  }
+}
+@media (max-width: 992px) {
+  .header {
+    position: fixed;
+    left: -120%;
+    z-index: 10;
+  }
+  .menu {
+    display: block;
+  }
+}/*# sourceMappingURL=layout.module.css.map */

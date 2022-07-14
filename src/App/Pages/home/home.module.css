@@ -1,0 +1,48 @@
+.home {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-self: center;
+}
+.home h3, .home h1, .home span {
+  color: #fff;
+}
+.home h3 {
+  font-size: 2.5rem;
+  -webkit-animation: show linear 0.3s;
+          animation: show linear 0.3s;
+}
+.home h1 {
+  font-size: 5rem;
+  -webkit-animation: show linear 0.4s;
+          animation: show linear 0.4s;
+}
+.home p {
+  color: #eee;
+  font-size: 2rem;
+  padding: 1rem 0;
+  -webkit-animation: show linear 0.5s;
+          animation: show linear 0.5s;
+}
+
+@-webkit-keyframes show {
+  from {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}/*# sourceMappingURL=home.module.css.map */

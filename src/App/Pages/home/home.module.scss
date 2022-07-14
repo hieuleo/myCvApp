@@ -1,0 +1,36 @@
+$yellows: #f9ca24;
+
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-self: center;
+    h3,h1,span{
+        color: #fff;
+    };
+    h3 {
+        font-size: 2.5rem;
+        animation: show linear 0.3s;
+    }
+    h1 {
+        font-size: 5rem;
+        animation: show linear 0.4s;
+    }
+    p{
+        color: #eee;
+        font-size: 2rem;
+        padding: 1rem 0;
+        animation: show linear 0.5s;
+    }
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: translateY(25%)
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}

@@ -1,0 +1,107 @@
+.about {
+  padding-top: 2rem;
+}
+.about .content {
+  padding: 2rem 1rem;
+}
+.about .content h3 {
+  background: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+.about .content span {
+  background: #eee;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: normal;
+  padding: 0 0.5rem;
+}
+.about .content .btn:hover {
+  background: #444;
+}
+.about .content .content1 {
+  -webkit-animation: show2 linear 0.2s;
+          animation: show2 linear 0.2s;
+}
+.about .content .content2 {
+  -webkit-animation: show2 linear 0.3s;
+          animation: show2 linear 0.3s;
+}
+.about .content .content3 {
+  -webkit-animation: show2 linear 0.4s;
+          animation: show2 linear 0.4s;
+}
+.about .content .content4 {
+  -webkit-animation: show2 linear 0.5s;
+          animation: show2 linear 0.5s;
+}
+.about .content .content5 {
+  -webkit-animation: show2 linear 0.6s;
+          animation: show2 linear 0.6s;
+}
+.about .counter {
+  padding: 2rem 1rem;
+}
+.about .counter .box {
+  background: #222;
+  text-align: center;
+  padding: 2rem 0;
+  -webkit-animation: show linear 0.3s;
+          animation: show linear 0.3s;
+}
+.about .counter .box span {
+  font-size: 4rem;
+  background: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about .counter .box h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .box {
+    margin: 0 !important;
+  }
+}
+@-webkit-keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes show2 {
+  from {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+@keyframes show2 {
+  from {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}/*# sourceMappingURL=about.module.css.map */

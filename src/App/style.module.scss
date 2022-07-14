@@ -1,0 +1,34 @@
+$yellows: linear-gradient(210.41deg,#fa5042 1.14%,#ffa739 100.75%);
+    .heading{
+        user-select: none;
+        h1{
+            text-align: center;
+            color: #fff;
+            font-size: 4rem;
+            padding: 1rem;
+            border-bottom: 0.1rem solid #fff4;
+            span{
+                background: $yellows;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+    .btn{
+        padding:.7rem 3rem;
+        background:#333;
+        animation: opacity linear 0.6s;
+        color:#fff;
+        cursor: pointer;
+        margin-top: 1rem;
+        font-size: 2rem;
+        border-radius: 5rem;
+    }
+    
+    .btn:hover{
+        background: #555;
+    }
+
+    .btn:hover{
+        color: #fff;
+    }

@@ -1,0 +1,14 @@
+*::selection{
+    background : #f9ca24!important;
+    color : #333 !important;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background: #111;
+    overflow-x: hidden;
+}

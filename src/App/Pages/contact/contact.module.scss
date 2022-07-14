@@ -1,0 +1,60 @@
+$yellows: linear-gradient(210.41deg,#fa5042 1.14%,#ffa739 100.75%);
+
+.contact{
+    .content{
+        animation: show linear 0.3s;
+        .title{
+            text-transform: uppercase;
+            color:#fff;
+            font-size: 3rem;
+            padding-bottom: 2rem;
+        }
+        .info{
+            h3{
+                display: flex;
+                align-items: center;
+                font-size: 2rem;
+                color:#eee;
+                padding:1rem 0;
+                font-weight: normal;
+                text-transform: lowercase;
+                i{
+                    margin-right: .6rem;
+                }
+            }
+        }
+        .form{
+            display: flex;
+            flex-flow: column;
+            .box{
+                display: block;
+                padding:1.5rem;
+                margin:1rem 0;
+                background:#3333;
+                color:#fff;
+                text-transform: none;
+                font-size: 1.7rem;
+                outline: none;
+            }
+            .btn{
+                color:rgba(238, 238, 238, 0.384)!important;
+                background:rgba(51, 51, 51, 0.658)!important;
+                cursor: no-drop!important;
+            }
+            .btn:hover{
+                color:rgba(238, 238, 238, 0.384)!important;
+                background:rgba(51, 51, 51, 0.658)!important;
+            }
+        }
+    }
+}
+
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
