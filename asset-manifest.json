@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/myCvApp/static/css/main.55c44835.css",
-    "main.js": "/myCvApp/static/js/main.c5bf5fd6.js",
+    "main.js": "/myCvApp/static/js/main.0b5efb18.js",
     "static/css/413.87c50642.chunk.css": "/myCvApp/static/css/413.87c50642.chunk.css",
-    "static/js/413.d3350540.chunk.js": "/myCvApp/static/js/413.d3350540.chunk.js",
+    "static/js/413.62fc4f04.chunk.js": "/myCvApp/static/js/413.62fc4f04.chunk.js",
     "static/js/787.20416dff.chunk.js": "/myCvApp/static/js/787.20416dff.chunk.js",
     "static/js/672.1e104b0d.chunk.js": "/myCvApp/static/js/672.1e104b0d.chunk.js",
     "static/media/avatar.jpg": "/myCvApp/static/media/avatar.cd0dcd8547ec14628288.jpg",
     "index.html": "/myCvApp/index.html",
     "main.55c44835.css.map": "/myCvApp/static/css/main.55c44835.css.map",
-    "main.c5bf5fd6.js.map": "/myCvApp/static/js/main.c5bf5fd6.js.map",
+    "main.0b5efb18.js.map": "/myCvApp/static/js/main.0b5efb18.js.map",
     "413.87c50642.chunk.css.map": "/myCvApp/static/css/413.87c50642.chunk.css.map",
-    "413.d3350540.chunk.js.map": "/myCvApp/static/js/413.d3350540.chunk.js.map",
+    "413.62fc4f04.chunk.js.map": "/myCvApp/static/js/413.62fc4f04.chunk.js.map",
     "787.20416dff.chunk.js.map": "/myCvApp/static/js/787.20416dff.chunk.js.map",
     "672.1e104b0d.chunk.js.map": "/myCvApp/static/js/672.1e104b0d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.55c44835.css",
-    "static/js/main.c5bf5fd6.js"
+    "static/js/main.0b5efb18.js"
   ]
 }
