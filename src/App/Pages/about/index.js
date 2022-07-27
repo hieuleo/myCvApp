@@ -30,16 +30,16 @@ const AbountPage = () => {
                                         <h3>years of experience</h3>
                                 </Col>
                                 <Col className={styles.box} lg={11} sm={24} offset={1}>
-                                        <span>430+</span>
+                                        <span>+</span>
                                         <h3>happy clients</h3>
                                 </Col>
                                 <Col className={styles.box} lg={11} sm={24}>
-                                        <span>100+</span>
+                                        <span>20+</span>
                                         <h3>porject completed</h3>
                                 </Col>
                                 <Col className={styles.box} lg={11} sm={24} offset={1}>
-                                        <span>100+</span>
-                                        <h3>porject completed</h3>
+                                        <span>2+</span>
+                                        <h3>programming language</h3>
                                 </Col>
                             </Row>
                         </Col>

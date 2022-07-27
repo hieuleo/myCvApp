@@ -12,7 +12,7 @@ const HomePage = () => {
                 <Col span = {20} offset = {2}>
                     <h3>HI THERE !!!</h3>
                     <h1>I'M <span>Hieu Nguyen</span></h1>
-                    <p>lorem ipsum dolor sit amet consectetur adipiscing elit. Distinctio deserunt aspernatur fugiat minus enim ullam repudiandae sint sed mafnam tenetur!!</p> 
+                    <p>Hieu passionate about writing web apps that span consumer productivity software to mission-critical financial trading platforms. He has extensive knowledge of front-end JavaScript and browser APIs as well as significant experience with popular frameworks and libraries like React and Redux. He always wants to learn a lot from everyone</p> 
                     <Link className={styleRoot.btn} to={"/myCvApp/AboutPage"}>about me</Link>
                 </Col>
             </Row>

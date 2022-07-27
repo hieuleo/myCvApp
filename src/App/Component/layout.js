@@ -6,6 +6,7 @@ import { clsx } from 'clsx';
 import avatar from '../img/avatar.jpg';
 import { Link } from "react-router-dom";
 
+// layout
 const Layout = ({children ,home ,abount ,education ,portfolio ,contact}) => {
     const [buttonMenu, setButtonMenu] = useState(true);
     let [widthScreen, setWidthScreen] = useState(window.innerWidth);

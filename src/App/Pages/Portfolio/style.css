@@ -1,3 +1,5 @@
 .ant-image-img{
     border-radius: 10px !important;
+    object-fit: center;
+
 }

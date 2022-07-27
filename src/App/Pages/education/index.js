@@ -16,41 +16,32 @@ const EducationPage = () => {
                         </Col>
                     </Row>
                     <Row gutter={[16, 24]} className={clsx(styles.counter)}>
-                        <Col className={clsx(styles.box, styles.box1)} xxl={7} xl={11} lg={23} sm={11} offset={1}>
+                        <Col className={clsx(styles.box, styles.box1)} xxl={11} xl={11} lg={23} sm={11} offset={1}>
                             <i className="fas fa-graduation-cap"></i>
                             <span>2016</span>
-                            <h3>front end development</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+                            <h3>Student</h3>
+                            <p>Posts and Telecommunications
+                                Institute of Technology, Ho Chi
+                                Minh City
+                                Major: Electronics and Communication technology</p>
                         </Col>
-                        <Col className={clsx(styles.box, styles.box2)} xxl={7} xl={11} lg={23} sm={11} offset={1}>
+                        <Col className={clsx(styles.box, styles.box2)} xxl={11} xl={11} lg={23} sm={11} offset={1}>
                             <i className="fas fa-graduation-cap"></i>
-                            <span>2016</span>
-                            <h3>front end development</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+                            <span>2020</span>
+                            <h3>network engineer</h3>
+                            <p>network engineer at Tri Anh Solutions</p>
                         </Col>
-                        <Col className={clsx(styles.box, styles.box3)} xxl={7} xl={11} lg={23} sm={11} offset={1}>
+                        <Col className={clsx(styles.box, styles.box3)} xxl={11} xl={11} lg={23} sm={11} offset={1}>
                             <i className="fas fa-graduation-cap"></i>
-                            <span>2016</span>
-                            <h3>front end development</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+                            <span>2021</span>
+                            <h3>network &amp; system administrator</h3>
+                            <p>network &amp; system administrator at TPCLOUD</p>
                         </Col>
-                        <Col className={clsx(styles.box, styles.box4)} xxl={7} xl={11} lg={23} sm={11} offset={1}>
+                        <Col className={clsx(styles.box, styles.box5)} xxl={11} xl={11} lg={23} sm={11} offset={1}>
                             <i className="fas fa-graduation-cap"></i>
-                            <span>2016</span>
+                            <span>2021</span>
                             <h3>front end development</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-                        </Col>
-                        <Col className={clsx(styles.box, styles.box5)} xxl={7} xl={11} lg={23} sm={11} offset={1}>
-                            <i className="fas fa-graduation-cap"></i>
-                            <span>2016</span>
-                            <h3>front end development</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-                        </Col>
-                        <Col className={clsx(styles.box, styles.box6)} xxl={7} xl={11} lg={23} sm={11} offset={1}>
-                            <i className="fas fa-graduation-cap"></i>
-                            <span>2016</span>
-                            <h3>front end development</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+                            <p>work as a front-end developer</p>
                         </Col>
                     </Row>
                 </Col>

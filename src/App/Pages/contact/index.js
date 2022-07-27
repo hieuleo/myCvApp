@@ -21,7 +21,7 @@ const ContactPage = () => {
                             <div className={styles.info}>
                                 <h3> <i className={clsx("fas","fa-envelope")}></i> nguyenquochieu617@gmail.com </h3>
                                 <h3> <i className={clsx("fas","fa-phone")}></i> +84-038-442-7799 </h3>
-                                <h3 > <i className={clsx("fas","fa-phone")}></i>  +038-442-7799 (zalo) </h3>
+                                <h3><i className={clsx("fas","fa-phone")}></i>  +038-442-7799 (zalo) </h3>
                                 <h3> <i className={clsx("fas","fa-map-marker-alt")}></i> Ho Chi Minh City, Vietnam - 008428. </h3>
                             </div>
                         </Col>
