@@ -9,6 +9,7 @@ import project1 from '../../img/meal.png';
 import project2 from '../../img/DbMovie.png';
 import project3 from '../../img/travel.png';
 import project4 from '../../img/music.png';
+import project5 from '../../img/pokemon.png';
 const ProtfolioPage = () => {
     return(
         <Layout portfolio>
@@ -91,20 +92,20 @@ const ProtfolioPage = () => {
                                     />
                                 </Col>
                                 <Col className={clsx(styles.box,styles.box5)} xl={12}>
-                                    <div className={styles.headingBox}>Heading</div>
+                                    <div className={styles.headingBox}>Pokemon</div>
                                     <div className={styles.boxShadow}>
-                                        <a className={styles.link} href={'https://hieuleo.github.io/Travel/'} target="_blank" rel="noreferrer" >
+                                        <a className={styles.link} href={'https://hieuleo.github.io/pokemon/'} target="_blank" rel="noreferrer" >
                                             view Pages
                                             <i className={clsx(styles.icons,"fa-solid","fa-file")}></i>    
                                         </a>
-                                        <a className={styles.link} href={'https://hieuleo.github.io/Travel/'} target="_blank" rel="noreferrer" >
+                                        <a className={styles.link} href={'https://github.com/hieuleo/pokemon'} target="_blank" rel="noreferrer" >
                                             view Source
                                             <i className={clsx(styles.icons,"fa-solid","fa-eye")}></i>
                                         </a>
-                                        <p className={styles.dec}>description: JavaScript, Html, Css</p>
+                                        <p className={styles.dec}>description: TypeScript, ReactJs</p>
                                     </div>
                                     <Image
-                                        src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
+                                        src={project5}
                                     />
                                 </Col>
                                 <Col className={clsx(styles.box,styles.box6)} xl={12}>
