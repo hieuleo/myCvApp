@@ -21,7 +21,7 @@ const AbountPage = () => {
                             <h3 className={styles.content3}> <span> qualification : </span> PTIT </h3>
                             <h3 className={styles.content4}> <span> post : </span> front end developer </h3>
                             <h3 className={styles.content5}> <span> language : </span> Vietnamese </h3>
-                            <a href="#"><button className={styleRoot.btn} type="button"> download CV <i className="fas fa-download"></i> </button></a>
+                            <a target="_blank" href="https://www.topcv.vn/xem-cv/D19UAVMPAAYIBFULBAVcBwBWUFcHBFFUV1dbBA9ba3"><button className={styleRoot.btn} type="button"> download CV <i className="fas fa-download"></i> </button></a>
                         </Col>
                         <Col className={styles.counter} xl={12} sm={24}>
                             <Row gutter={[16, 16]}>

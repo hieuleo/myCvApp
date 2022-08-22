@@ -24,6 +24,14 @@ const ContactPage = () => {
                                 <h3><i className={clsx("fas","fa-phone")}></i>  +038-442-7799 (zalo) </h3>
                                 <h3> <i className={clsx("fas","fa-map-marker-alt")}></i> Ho Chi Minh City, Vietnam - 008428. </h3>
                             </div>
+                            <div className={clsx(styles.icons)}>
+                                <a target="_blank" className={clsx(styles.link)} href="https://www.facebook.com/leonatdodvensi/">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <a target="_blank" className={clsx(styles.link)} href="https://github.com/hieuleo">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
                         </Col>
                         <Col xl={12} sm={24}>
                             <form action="" className={clsx(styles.form)}>
