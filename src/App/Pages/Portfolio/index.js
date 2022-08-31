@@ -76,7 +76,7 @@ const ProtfolioPage = () => {
                                     />
                                 </Col>
                                 <Col className={clsx(styles.box,styles.box4)} xl={12}>
-                                    <div className={styles.headingBox}>Heading</div>
+                                    <div className={styles.headingBox}>Music</div>
                                     <div className={styles.boxShadow}>
                                         <a className={styles.link} href={'https://hieuleo.github.io/PlayMusic/'} target="_blank" rel="noreferrer" >
                                             view Pages
