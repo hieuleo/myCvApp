@@ -12,7 +12,7 @@ const HomePage = () => {
                 <Col span = {20} offset = {2}>
                     <h3>HI THERE !!!</h3>
                     <h1>I'M <span>Hieu Nguyen</span></h1>
-                    {/* <p>Hieu passionate about writing web apps that span consumer productivity software to mission-critical financial trading platforms. He has extensive knowledge of front-end JavaScript and browser APIs as well as significant experience with popular frameworks and libraries like React and Redux. He always wants to learn a lot from everyone</p>  */}
+                    <p>I'm a front-end developer. I was born in Quang Ngai and I live Ho Chi Minh city. I would like to be a Full-stack developer in future. I like E-sports/movies/technology. I want to learn more from everyone. Thank you for being here with me. I hope you will contact me. </p> 
                     <Link className={styleRoot.btn} to={"/myCvApp/AboutPage"}>about me</Link>
                 </Col>
             </Row>

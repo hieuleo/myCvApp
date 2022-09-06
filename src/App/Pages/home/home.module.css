@@ -23,6 +23,7 @@
   padding: 1rem 0;
   -webkit-animation: show linear 0.5s;
           animation: show linear 0.5s;
+  text-transform: none;
 }
 
 @-webkit-keyframes show {
