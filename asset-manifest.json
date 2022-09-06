@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/myCvApp/static/css/main.55c44835.css",
-    "main.js": "/myCvApp/static/js/main.1578ba7f.js",
-    "static/css/988.6fc62704.chunk.css": "/myCvApp/static/css/988.6fc62704.chunk.css",
-    "static/js/988.525cb6d0.chunk.js": "/myCvApp/static/js/988.525cb6d0.chunk.js",
+    "main.js": "/myCvApp/static/js/main.393a5a1a.js",
+    "static/css/988.b2a70464.chunk.css": "/myCvApp/static/css/988.b2a70464.chunk.css",
+    "static/js/988.5a6a0a6b.chunk.js": "/myCvApp/static/js/988.5a6a0a6b.chunk.js",
     "static/js/787.20416dff.chunk.js": "/myCvApp/static/js/787.20416dff.chunk.js",
     "static/js/672.1e104b0d.chunk.js": "/myCvApp/static/js/672.1e104b0d.chunk.js",
     "static/media/DbMovie.png": "/myCvApp/static/media/DbMovie.845c850ab33da706dd4f.png",
@@ -15,14 +15,14 @@
     "static/media/avatar.jpg": "/myCvApp/static/media/avatar.cd0dcd8547ec14628288.jpg",
     "index.html": "/myCvApp/index.html",
     "main.55c44835.css.map": "/myCvApp/static/css/main.55c44835.css.map",
-    "main.1578ba7f.js.map": "/myCvApp/static/js/main.1578ba7f.js.map",
-    "988.6fc62704.chunk.css.map": "/myCvApp/static/css/988.6fc62704.chunk.css.map",
-    "988.525cb6d0.chunk.js.map": "/myCvApp/static/js/988.525cb6d0.chunk.js.map",
+    "main.393a5a1a.js.map": "/myCvApp/static/js/main.393a5a1a.js.map",
+    "988.b2a70464.chunk.css.map": "/myCvApp/static/css/988.b2a70464.chunk.css.map",
+    "988.5a6a0a6b.chunk.js.map": "/myCvApp/static/js/988.5a6a0a6b.chunk.js.map",
     "787.20416dff.chunk.js.map": "/myCvApp/static/js/787.20416dff.chunk.js.map",
     "672.1e104b0d.chunk.js.map": "/myCvApp/static/js/672.1e104b0d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.55c44835.css",
-    "static/js/main.1578ba7f.js"
+    "static/js/main.393a5a1a.js"
   ]
 }
