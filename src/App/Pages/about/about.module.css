@@ -24,24 +24,19 @@
   background: #444;
 }
 .about .content .content1 {
-  -webkit-animation: show2 linear 0.2s;
-          animation: show2 linear 0.2s;
+  animation: show2 linear 0.2s;
 }
 .about .content .content2 {
-  -webkit-animation: show2 linear 0.3s;
-          animation: show2 linear 0.3s;
+  animation: show2 linear 0.3s;
 }
 .about .content .content3 {
-  -webkit-animation: show2 linear 0.4s;
-          animation: show2 linear 0.4s;
+  animation: show2 linear 0.4s;
 }
 .about .content .content4 {
-  -webkit-animation: show2 linear 0.5s;
-          animation: show2 linear 0.5s;
+  animation: show2 linear 0.5s;
 }
 .about .content .content5 {
-  -webkit-animation: show2 linear 0.6s;
-          animation: show2 linear 0.6s;
+  animation: show2 linear 0.6s;
 }
 .about .counter {
   padding: 2rem 1rem;
@@ -50,8 +45,7 @@
   background: #222;
   text-align: center;
   padding: 2rem 0;
-  -webkit-animation: show linear 0.3s;
-          animation: show linear 0.3s;
+  animation: show linear 0.3s;
 }
 .about .counter .box span {
   font-size: 4rem;
@@ -69,30 +63,12 @@
     margin: 0 !important;
   }
 }
-@-webkit-keyframes show {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 @keyframes show {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
-  }
-}
-@-webkit-keyframes show2 {
-  from {
-    opacity: 0;
-    transform: translateX(50%);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0%);
   }
 }
 @keyframes show2 {
